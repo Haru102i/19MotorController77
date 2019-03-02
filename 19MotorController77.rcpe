@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MicomToolCommonProjectFile Version="1.00">
+  <CreatorType Name="CubeSuite+" Version="V7.00.00  [13 Jun 2018]" />
+  <Placeholders>
+    <PlaceholderPrefix>%</PlaceholderPrefix>
+    <PlaceholderPostfix>%</PlaceholderPostfix>
+  </Placeholders>
+  <Project Name="19MotorController77" Type="Application">
+    <Files>
+      <Path>19MotorController77.c</Path>
+      <Category Name="Smart Configurator">
+        <Category Name="Config_CMT0">
+          <Path>src\smc_gen\Config_CMT0\Config_CMT0.c</Path>
+          <Path>src\smc_gen\Config_CMT0\Config_CMT0.h</Path>
+          <Path>src\smc_gen\Config_CMT0\Config_CMT0_user.c</Path>
+        </Category>
+        <Category Name="Config_PORT">
+          <Path>src\smc_gen\Config_PORT\Config_PORT.c</Path>
+          <Path>src\smc_gen\Config_PORT\Config_PORT.h</Path>
+          <Path>src\smc_gen\Config_PORT\Config_PORT_user.c</Path>
+        </Category>
+        <Category Name="general">
+          <Path>src\smc_gen\general\r_cg_cmt.h</Path>
+          <Path>src\smc_gen\general\r_cg_hardware_setup.c</Path>
+          <Path>src\smc_gen\general\r_cg_macrodriver.h</Path>
+          <Path>src\smc_gen\general\r_cg_port.h</Path>
+          <Path>src\smc_gen\general\r_cg_userdefine.h</Path>
+          <Path>src\smc_gen\general\r_smc_cgc.c</Path>
+          <Path>src\smc_gen\general\r_smc_cgc.h</Path>
+          <Path>src\smc_gen\general\r_smc_cgc_user.c</Path>
+          <Path>src\smc_gen\general\r_smc_entry.h</Path>
+          <Path>src\smc_gen\general\r_smc_interrupt.c</Path>
+          <Path>src\smc_gen\general\r_smc_interrupt.h</Path>
+          <Path>src\smc_gen\general\r_cg_icu.h</Path>
+          <Path>src\smc_gen\general\r_cg_mtu3.h</Path>
+          <Path>src\smc_gen\general\r_cg_s12ad.h</Path>
+        </Category>
+        <Category Name="r_bsp">
+          <Path>src\smc_gen\r_bsp\platform.h</Path>
+          <Path>src\smc_gen\r_bsp\readme.txt</Path>
+          <Category Name="board">
+            <Category Name="generic_rx66t">
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\dbsct.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\hwsetup.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\hwsetup.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\lowlvl.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\lowsrc.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\lowsrc.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\resetprg.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\r_bsp.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\r_bsp_config_reference.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\r_bsp_interrupt_config_reference.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\sbrk.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\vecttbl.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rx66t\vecttbl.h</Path>
+            </Category>
+            <Category Name="user">
+              <Path>src\smc_gen\r_bsp\board\user\r_bsp.h</Path>
+            </Category>
+          </Category>
+          <Category Name="doc">
+            <Category Name="en">
+              <Path>src\smc_gen\r_bsp\doc\en\r01an1685ej0391-rx.pdf</Path>
+            </Category>
+            <Category Name="ja">
+              <Path>src\smc_gen\r_bsp\doc\ja\r01an1685jj0391-rx.pdf</Path>
+            </Category>
+          </Category>
+          <Category Name="mcu">
+            <Category Name="all">
+              <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_typedefs.h</Path>
+            </Category>
+            <Category Name="rx66t">
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\cpu.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\cpu.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\locking.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\locking.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_clocks.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_info.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_init.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_init.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_interrupts.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_interrupts.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_locks.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_locks.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_mapped_interrupts.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_mapped_interrupts.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_mapped_interrupts_private.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_startup.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rx66t\mcu_startup.h</Path>
+              <Category Name="register_access">
+                <Path>src\smc_gen\r_bsp\mcu\rx66t\register_access\iodefine.h</Path>
+              </Category>
+            </Category>
+          </Category>
+        </Category>
+        <Category Name="r_config">
+          <Path>src\smc_gen\r_config\r_bsp_config.h</Path>
+          <Path>src\smc_gen\r_config\r_bsp_config_readme.txt</Path>
+          <Path>src\smc_gen\r_config\r_bsp_interrupt_config.h</Path>
+        </Category>
+        <Category Name="r_pincfg">
+          <Path>src\smc_gen\r_pincfg\Pin.c</Path>
+          <Path>src\smc_gen\r_pincfg\Pin.h</Path>
+        </Category>
+        <Category Name="Config_ICU">
+          <Path>src\smc_gen\Config_ICU\Config_ICU.c</Path>
+          <Path>src\smc_gen\Config_ICU\Config_ICU.h</Path>
+          <Path>src\smc_gen\Config_ICU\Config_ICU_user.c</Path>
+        </Category>
+        <Category Name="Config_MTU3_MTU4">
+          <Path>src\smc_gen\Config_MTU3_MTU4\Config_MTU3_MTU4.c</Path>
+          <Path>src\smc_gen\Config_MTU3_MTU4\Config_MTU3_MTU4.h</Path>
+          <Path>src\smc_gen\Config_MTU3_MTU4\Config_MTU3_MTU4_user.c</Path>
+        </Category>
+        <Category Name="Config_S12AD0">
+          <Path>src\smc_gen\Config_S12AD0\Config_S12AD0.c</Path>
+          <Path>src\smc_gen\Config_S12AD0\Config_S12AD0.h</Path>
+          <Path>src\smc_gen\Config_S12AD0\Config_S12AD0_user.c</Path>
+        </Category>
+        <Category Name="Config_S12AD2">
+          <Path>src\smc_gen\Config_S12AD2\Config_S12AD2.c</Path>
+          <Path>src\smc_gen\Config_S12AD2\Config_S12AD2.h</Path>
+          <Path>src\smc_gen\Config_S12AD2\Config_S12AD2_user.c</Path>
+        </Category>
+        <Category Name="Config_MTU9">
+          <Path>src\smc_gen\Config_MTU9\Config_MTU9.c</Path>
+          <Path>src\smc_gen\Config_MTU9\Config_MTU9.h</Path>
+          <Path>src\smc_gen\Config_MTU9\Config_MTU9_user.c</Path>
+        </Category>
+      </Category>
+    </Files>
+    <DebugOptions>
+      <ConnectSettings>
+        <MainClock>8000000</MainClock>
+      </ConnectSettings>
+      <DebugToolSettings />
+    </DebugOptions>
+    <Device Series="RX">R5F566TEAxFP</Device>
+    <BuildOptions Name="CC-RX" Version="V3.00.00">
+      <BuildMode Name="DefaultBuild" Active="True">
+        <GeneralOptions>
+          <SimultaneouslyBuild>false</SimultaneouslyBuild>
+        </GeneralOptions>
+        <CompileOptions>
+          <Option>-isa=rxv3</Option>
+          <Option>-fpu</Option>
+          <Option>-lang=c99</Option>
+          <Option>-include=src\smc_gen\Config_MTU9</Option>
+          <Option>-include=src\smc_gen\Config_S12AD2</Option>
+          <Option>-include=src\smc_gen\Config_S12AD0</Option>
+          <Option>-include=src\smc_gen\Config_MTU3_MTU4</Option>
+          <Option>-include=src\smc_gen\Config_ICU</Option>
+          <Option>-include=src\smc_gen\r_pincfg</Option>
+          <Option>-include=src\smc_gen\r_config</Option>
+          <Option>-include=src\smc_gen\r_bsp\mcu\rx66t\register_access</Option>
+          <Option>-include=src\smc_gen\r_bsp\mcu\rx66t</Option>
+          <Option>-include=src\smc_gen\r_bsp\mcu\all</Option>
+          <Option>-include=src\smc_gen\r_bsp\board\user</Option>
+          <Option>-include=src\smc_gen\r_bsp\board\generic_rx66t</Option>
+          <Option>-include=src\smc_gen\r_bsp</Option>
+          <Option>-include=src\smc_gen\general</Option>
+          <Option>-include=src\smc_gen\Config_PORT</Option>
+          <Option>-include=src\smc_gen\Config_CMT0</Option>
+          <Option>-output=obj=%BuildModeName%\%FileLeaf%.obj</Option>
+          <Option>-debug</Option>
+          <Option>-optimize=0</Option>
+          <Option>-speed</Option>
+          <Option>-nologo</Option>
+        </CompileOptions>
+        <AssembleOptions>
+          <Option>-isa=rxv3</Option>
+          <Option>-fpu</Option>
+          <Option>-output=%BuildModeName%\%FileLeaf%.obj</Option>
+          <Option>-debug</Option>
+          <Option>-nologo</Option>
+        </AssembleOptions>
+        <LinkOptions>
+          <Option>-output=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-vect=_undefined_interrupt_source_isr</Option>
+          <Option>-list=%BuildModeName%\%ProjectName%.map</Option>
+          <Option>-nooptimize</Option>
+          <Option>-start=SU,SI,B_1,R_1,B_2,R_2,B,R/4,C_1,C_2,C,C$*,D*,W*,L,P*/FFF80000,EXCEPTVECT/FFFFFF80,RESETVECT/FFFFFFFC</Option>
+          <Option>-rom=D=R,D_1=R_1,D_2=R_2</Option>
+          <Option>-nologo</Option>
+          <Option>-end</Option>
+          <Option>-input=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.mot</Option>
+          <Option>-form=stype</Option>
+          <Option>-exit</Option>
+          <PreLinker>Auto</PreLinker>
+        </LinkOptions>
+        <LibraryGenerateOptions>
+          <Option>-isa=rxv3</Option>
+          <Option>-fpu</Option>
+          <Option>-lang=c99</Option>
+          <Option>-head=runtime,math,mathf,stdio,stdlib,string,new</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.lib</Option>
+          <Option>-nologo</Option>
+          <GenerateMode>BuildOptionChanged</GenerateMode>
+        </LibraryGenerateOptions>
+        <LinkOrder>
+          <Path>DefaultBuild\19MotorController77.obj</Path>
+          <Path>DefaultBuild\Config_CMT0.obj</Path>
+          <Path>DefaultBuild\Config_CMT0_user.obj</Path>
+          <Path>DefaultBuild\Config_PORT.obj</Path>
+          <Path>DefaultBuild\Config_PORT_user.obj</Path>
+          <Path>DefaultBuild\r_cg_hardware_setup.obj</Path>
+          <Path>DefaultBuild\r_smc_cgc.obj</Path>
+          <Path>DefaultBuild\r_smc_cgc_user.obj</Path>
+          <Path>DefaultBuild\r_smc_interrupt.obj</Path>
+          <Path>DefaultBuild\dbsct.obj</Path>
+          <Path>DefaultBuild\hwsetup.obj</Path>
+          <Path>DefaultBuild\lowlvl.obj</Path>
+          <Path>DefaultBuild\lowsrc.obj</Path>
+          <Path>DefaultBuild\resetprg.obj</Path>
+          <Path>DefaultBuild\sbrk.obj</Path>
+          <Path>DefaultBuild\vecttbl.obj</Path>
+          <Path>DefaultBuild\r_bsp_common.obj</Path>
+          <Path>DefaultBuild\cpu.obj</Path>
+          <Path>DefaultBuild\locking.obj</Path>
+          <Path>DefaultBuild\mcu_clocks.obj</Path>
+          <Path>DefaultBuild\mcu_init.obj</Path>
+          <Path>DefaultBuild\mcu_interrupts.obj</Path>
+          <Path>DefaultBuild\mcu_locks.obj</Path>
+          <Path>DefaultBuild\mcu_mapped_interrupts.obj</Path>
+          <Path>DefaultBuild\mcu_startup.obj</Path>
+          <Path>DefaultBuild\Pin.obj</Path>
+          <Path>DefaultBuild\Config_ICU.obj</Path>
+          <Path>DefaultBuild\Config_ICU_user.obj</Path>
+          <Path>DefaultBuild\Config_MTU3_MTU4.obj</Path>
+          <Path>DefaultBuild\Config_MTU3_MTU4_user.obj</Path>
+          <Path>DefaultBuild\Config_S12AD0.obj</Path>
+          <Path>DefaultBuild\Config_S12AD0_user.obj</Path>
+          <Path>DefaultBuild\Config_S12AD2.obj</Path>
+          <Path>DefaultBuild\Config_S12AD2_user.obj</Path>
+          <Path>DefaultBuild\Config_MTU9.obj</Path>
+          <Path>DefaultBuild\Config_MTU9_user.obj</Path>
+        </LinkOrder>
+        <CommonOptions>
+          <IncludePathForC>src\smc_gen\Config_MTU9</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_S12AD2</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_S12AD0</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_MTU3_MTU4</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_ICU</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_pincfg</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_config</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\mcu\rx66t\register_access</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\mcu\rx66t</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\mcu\all</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\board\user</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\board\generic_rx66t</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp</IncludePathForC>
+          <IncludePathForC>src\smc_gen\general</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_PORT</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_CMT0</IncludePathForC>
+        </CommonOptions>
+      </BuildMode>
+    </BuildOptions>
+    <Extension_SmcCodePart>
+      <CodeGeneratorData></CodeGeneratorData>
+      <GenerateFileFolder>C:\workspace\RX66T\19MotorController77</GenerateFileFolder>
+      <SCFGFile>19MotorController77.scfg</SCFGFile>
+      <SmcExePath>C:\Program Files (x86)\Renesas Electronics\SmartConfigurator\RX\eclipse\SmartConfigurator.exe</SmcExePath>
+      <CodeGeneratorFilesGuid>735c78ee-9efd-44b9-ac00-7d3ba9a40f4d</CodeGeneratorFilesGuid>
+    </Extension_SmcCodePart>
+  </Project>
+</MicomToolCommonProjectFile>
